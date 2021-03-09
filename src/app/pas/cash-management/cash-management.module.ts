@@ -21,6 +21,24 @@ import { ReconcileLandingComponent } from './reconciliation/reconcile-landing/re
 
 @NgModule({
   imports: [CashManagementRoutingModule],
-  declarations: [CashManagementComponent, CashUpComponent, DepositComponent, ReconciliationComponent, ReportComponent, PendingComponent, BankingComponent, NewCashupComponent, ViewCashupComponent, ViewReportComponent, NewReportComponent, EditReportComponent, AllReportComponent, CashComponent, CardComponent, ThirdPartyComponent, ReconcileLandingComponent],
+  declarations: [
+    CashManagementComponent,
+    CashUpComponent,
+    DepositComponent,
+    ReconciliationComponent,
+    ReportComponent,
+    PendingComponent,
+    BankingComponent,
+    NewCashupComponent,
+    ViewCashupComponent,
+    ViewReportComponent,
+    NewReportComponent,
+    EditReportComponent,
+    AllReportComponent,
+    CashComponent,
+    CardComponent,
+    ThirdPartyComponent,
+    ReconcileLandingComponent,
+  ],
 })
 export class CashManagementModule { }

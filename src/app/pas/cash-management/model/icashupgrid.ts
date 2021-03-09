@@ -1,3 +1,3 @@
-export interface ICashupGrid {
-
-}
+// export interface ICashupGrid {
+//     'pdq':number,
+// }
