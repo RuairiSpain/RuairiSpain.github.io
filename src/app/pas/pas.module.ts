@@ -20,6 +20,6 @@ import { NbMenuModule } from '@nebular/theme';
     EmployeeModule,
     StockModule,
     MiscellaneousModule,
-  ]
+  ],
 })
 export class PASModule { }

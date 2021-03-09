@@ -8,7 +8,7 @@ describe('NewCashupComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NewCashupComponent ]
+      declarations: [ NewCashupComponent ],
     })
     .compileComponents();
   });

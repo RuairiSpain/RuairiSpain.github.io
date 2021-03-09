@@ -8,7 +8,7 @@ describe('PASComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PASComponent ]
+      declarations: [ PASComponent ],
     })
     .compileComponents();
   });

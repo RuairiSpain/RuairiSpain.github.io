@@ -8,7 +8,7 @@ describe('ThirdPartyComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ThirdPartyComponent ]
+      declarations: [ ThirdPartyComponent ],
     })
     .compileComponents();
   });

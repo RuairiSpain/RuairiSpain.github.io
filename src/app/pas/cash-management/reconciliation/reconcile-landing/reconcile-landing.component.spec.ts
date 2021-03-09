@@ -8,7 +8,7 @@ describe('ReconcileLandingComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ReconcileLandingComponent ]
+      declarations: [ ReconcileLandingComponent ],
     })
     .compileComponents();
   });

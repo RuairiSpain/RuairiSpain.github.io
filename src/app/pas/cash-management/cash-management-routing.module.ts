@@ -26,31 +26,31 @@ const routes: Routes = [
       {
         path: 'cashup',
         component: CashUpComponent,
-        children:[
+        children: [
           {
             path: '',
             redirectTo: 'view-cashup',
-            pathMatch: 'full'
+            pathMatch: 'full',
           },
           {
             path: 'view-cashup',
             component: ViewCashupComponent,
           },
-        
-        ]
+
+        ],
       },
       {
         path: 'cashup/new-cashup',
-        component:NewCashupComponent
-      }, 
+        component: NewCashupComponent,
+      },
       {
         path: 'deposit',
         component: DepositComponent,
-        children:[
+        children: [
           {
             path: '',
             redirectTo: 'pending',
-            pathMatch: 'full'
+            pathMatch: 'full',
           },
           {
             path: 'pending',
@@ -60,20 +60,20 @@ const routes: Routes = [
             path: 'banking',
             component: BankingComponent,
           },
-        ]
+        ],
       },
       {
         path: 'reconciliation',
         component: ReconciliationComponent,
-        children:[
+        children: [
           {
             path: '',
             redirectTo: 'landing',
-            pathMatch: 'full'
+            pathMatch: 'full',
           },
           {
             path: 'landing',
-            component: ReconcileLandingComponent
+            component: ReconcileLandingComponent,
           },
           {
             path: 'cash',
@@ -87,36 +87,36 @@ const routes: Routes = [
             path: 'third-party',
             component: ThirdPartyComponent,
           },
-         
 
-        ]
+
+        ],
       },
       {
         path: 'report',
         component: ReportComponent,
-        children:[
+        children: [
           {
-            path:'',
+            path: '',
             redirectTo: 'all-report',
-            pathMatch: 'full'
+            pathMatch: 'full',
           },
           {
             path: 'all-report',
-            component: AllReportComponent
+            component: AllReportComponent,
           },
          {
             path: 'new-report',
-            component: NewReportComponent
+            component: NewReportComponent,
         },
-        { 
+        {
           path: 'view-report',
-          component: ViewReportComponent
+          component: ViewReportComponent,
         },
-        { 
+        {
           path: 'edit-report',
-          component: EditReportComponent
+          component: EditReportComponent,
         },
-      ]
+      ],
       },
     ],
   },
@@ -124,6 +124,6 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class CashManagementRoutingModule { }

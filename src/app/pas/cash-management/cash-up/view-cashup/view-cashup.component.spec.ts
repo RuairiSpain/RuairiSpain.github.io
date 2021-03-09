@@ -8,7 +8,7 @@ describe('ViewCashupComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ViewCashupComponent ]
+      declarations: [ ViewCashupComponent ],
     })
     .compileComponents();
   });

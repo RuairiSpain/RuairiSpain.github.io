@@ -4,8 +4,8 @@ import { DashboradComponent } from './dashborad/dashborad.component';
 import { NotFoundComponent } from './miscellaneous/not-found/not-found.component';
 import { PASComponent } from './pas.component';
 
-const routes: Routes = [{ 
-  path: '', 
+const routes: Routes = [{
+  path: '',
   component: PASComponent,
   children: [
     {
@@ -41,6 +41,6 @@ const routes: Routes = [{
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class PASRoutingModule { }
