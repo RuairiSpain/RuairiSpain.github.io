@@ -6,7 +6,7 @@ import { StockComponent } from '../stock/stock.component';
 @NgModule({
   declarations: [StockComponent],
   imports: [
-    StockRoutingModule
-  ]
+    StockRoutingModule,
+  ],
 })
 export class StockModule { }
