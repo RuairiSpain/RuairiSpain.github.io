@@ -36,7 +36,20 @@ export const MENU_ITEMS: NbMenuItem[] = [
     {
         title: 'Employee',
         icon: 'people-outline',
-        children: [],
+        children: [
+            {
+                title: 'Attendance',
+                link: '/PAS/employee/attendance',
+            },
+            {
+                title: 'Requests',
+                link: '/PAS/employee/request',
+            },
+            {
+                title: 'Payroll',
+                link: '/PAS/employee/payroll',
+            },
+        ],
     },
     {
         title: 'Stock',
