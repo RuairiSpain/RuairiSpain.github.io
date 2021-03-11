@@ -17,10 +17,11 @@ import { CashComponent } from './reconciliation/cash/cash.component';
 import { CardComponent } from './reconciliation/card/card.component';
 import { ThirdPartyComponent } from './reconciliation/third-party/third-party.component';
 import { ReconcileLandingComponent } from './reconciliation/reconcile-landing/reconcile-landing.component';
+import { SharedModule } from '../../shared/shared.module';
 
 
 @NgModule({
-  imports: [CashManagementRoutingModule],
+  imports: [CashManagementRoutingModule, SharedModule],
   declarations: [
     CashManagementComponent,
     CashUpComponent,
