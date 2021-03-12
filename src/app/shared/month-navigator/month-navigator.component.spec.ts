@@ -8,7 +8,7 @@ describe('MonthNavigatorComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MonthNavigatorComponent ]
+      declarations: [ MonthNavigatorComponent ],
     })
     .compileComponents();
   });

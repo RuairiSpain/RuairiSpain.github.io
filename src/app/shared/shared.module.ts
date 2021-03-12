@@ -6,20 +6,20 @@ import { MonthNavigatorComponent } from './month-navigator/month-navigator.compo
 import { FloatingBadgeComponent } from './floating-badge/floating-badge.component';
 
 const COMPONENTS = [
-  MonthNavigatorComponent, 
-  FloatingBadgeComponent
-]
+  MonthNavigatorComponent,
+  FloatingBadgeComponent,
+];
 
 const PIPES = [
 
-]
+];
 
 @NgModule({
   declarations: [ ...COMPONENTS, ...PIPES],
   imports: [
     CommonModule,
-    SharedRoutingModule
+    SharedRoutingModule,
   ],
-  exports: [ ...COMPONENTS, ...PIPES ]
+  exports: [ ...COMPONENTS, ...PIPES ],
 })
 export class SharedModule { }

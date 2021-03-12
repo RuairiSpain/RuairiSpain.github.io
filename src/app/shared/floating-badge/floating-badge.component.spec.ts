@@ -8,7 +8,7 @@ describe('FloatingBadgeComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FloatingBadgeComponent ]
+      declarations: [ FloatingBadgeComponent ],
     })
     .compileComponents();
   });
