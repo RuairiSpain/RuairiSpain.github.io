@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fotorama</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="x-ua-compatible" content="IE=edge" />
+  <meta name="msapplication-tap-highlight" content="no" />
+	<link  href="out/fotorama.css" rel="stylesheet">
+  <style type="text/css">
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .fotorama__wrap {
+      margin-left:auto;
+      margin-right:auto;
+    }
+
+    .fotorama__html {
+      font-family: sans-serif;
+      font-size: 64px;
+      font-size: 40vw;
+      line-height: 1;
+      text-align: center;
+      display: table-row;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+    }
+
+    .fotorama__html > div {
+      position: relative;
+      top: 50%;
+      margin-top: -.5em;
+    }
+
+    .fotorama .fotorama__dot {
+      border-color: #000;
+    }
+
+    .fotorama .fotorama__active .fotorama__dot {
+      background-color: #000;
+    }
+
+    .fotorama__caption {
+      top: 0px;
+      padding: 0px 10px;
+      background-color: transparent;
+    }
+    .fotorama__active {
+      padding-top: 150px;
+
+    }
+    .fotorama__caption__wrap {
+      font-size: 2em;
+      width: 100%;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.05) !important;
+    }
+
+    h2 {
+      font-size: 2em;
+      width: 100%;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+	<!-- jQuery, -->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+	<!-- Fotorama -->
+
+	<script src="out/fotorama.js"></script>
+
+  <script type="text/javascript">
+    $(function () {
+      $('.fotorama')
+          .on('fotorama:ready', function (e, fotorama) {
+            fotorama.show({index: 2, time: 0});
+          })
+          .fotorama();
+
+      $('div').bind('class', function(e) {
+          console.log( $(this).attr('class') );
+          if ($(this).attr('class').contains(fotorama__active)) {
+              console.log( $(this).parent('alt') );
+          }
+      });
+    })
+  </script>
+</head>
+<body>
+
+<h2>ROS Workflow Onboarding</h2>
+<div class="fotorama"
+    data-auto="false"
+    data-arrows="true"
+    data-click="true"
+    data-swipe="true"
+    data-keyboard='{"space": true, "home": true, "end": true, "up": true, "down": true}'
+    data-width="90%"
+    data-height="90%"
+    data-nav="thumbs"
+>
+
+<a href="images/User Login 1 - Login screen  2021-03-16 112445.png" data-caption="User Login 1 - Login screen "><img src="images/thumbnails/User Login 1 - Login screen  2021-03-16 112445_tn.jpg" width="100"></a>
+<a href="images/User Login 2 - 2-phase authentication - security keycodes in ROS Mobile app 2021-03-16 112822.png" data-caption="User Login 2 - 2-phase authentication - security key codes in ROS Mobile app"><img src="images/thumbnails/User Login 2 - 2-phase authentication - security keycodes in ROS Mobile app 2021-03-16 112822_tn.jpg" width="100"></a>
+<a href="images/User Login 3 - register 2021-03-16 112745.png" data-caption="User Login 3 - Register"><img src="images/thumbnails/User Login 3 - register 2021-03-16 112745_tn.jpg" width="100"></a>
+<a href="images/User Login 4 - ROS account manager dashboard information - other user groups see targets graphs and important messages in dashboard 2021-03-16 112537.png" data-caption="User Login 4 - ROS account manager dashboard information - user groups see custom stats"><img src="images/thumbnails/User Login 4 - ROS account manager dashboard information - other user groups see targets graphs and important messages in dashboard 2021-03-16 112537_tn.jpg" width="100"></a>
+<a href="images/User Login 4a - restaurant manager dashboard 2021-03-16 112944.png" data-caption="User Login 4a - Restaurant manager dashboard"><img src="images/thumbnails/User Login 4a - restaurant manager dashboard 2021-03-16 112944_tn.jpg" width="100"></a>
+<a href="images/User Login 5 - dashboard - menu slide out2021-03-16 112901.png" data-caption="User Login 5 - Dashboard - menu slide out2021-03-16 112901"><img src="images/thumbnails/User Login 5 - dashboard - menu slide out2021-03-16 112901_tn.jpg" width="100"></a>
+<a href="images/User Login 6 - Client Manager can customise settings screen with configurable rules for dropdowns lists- currency - tax requirements - and workflow changes 2021-03-16 131251.png" data-caption="User Login 6 - Client Manager can customise settings - currency - tax requirements - and workflow changes"><img src="images/thumbnails/User Login 6 - Client Manager can customise settings screen with configurable rules for dropdowns lists- currency - tax requirements - and workflow changes 2021-03-16 131251_tn.jpg" width="100"></a>
+
+<a href="images/Cashup 0 - cashup summary list 2021-03-16 112637.png" data-caption="Cash Up 0 - summary list"><img src="images/thumbnails/Cashup 0 - cashup summary list 2021-03-16 112637_tn.jpg" width="100"></a>
+<a href="images/Cashup 1 -  list - month view 2021-03-16 113331.png" data-caption="Cash Up 1 -  list month view"><img src="images/thumbnails/Cashup 1 -  list - month view 2021-03-16 113331_tn.jpg" width="100"></a>
+<a href="images/Cashup 2 - list expanded view 2021-03-16 113530.png" data-caption="Cash Up 2 - list expanded view"><img src="images/thumbnails/Cashup 2 - list expanded view 2021-03-16 113530_tn.jpg" width="100"></a>
+<a href="images/Cashup 3 - delete message box 2021-03-16 113649.png" data-caption="Cash Up 3 - delete message box"><img src="images/thumbnails/Cashup 3 - delete message box 2021-03-16 113649_tn.jpg" width="100"></a>
+<a href="images/Cashup 4 - delete message annotation 2021-03-16 113721.png" data-caption="Cash Up 4 - delete message annotation"><img src="images/thumbnails/Cashup 4 - delete message annotation 2021-03-16 113721_tn.jpg" width="100"></a>
+<a href="images/Cashup 5 - list - pending view 2021-03-16 113331.png" data-caption="Cash Up 5 - list pending view"><img src="images/thumbnails/Cashup 5 - list - pending view 2021-03-16 113331_tn.jpg" width="100"></a>
+<a href="images/Cashup 5a - month list draft view 2021-03-16 113458.png" data-caption="Cash Up 5a - month list draft view"><img src="images/thumbnails/Cashup 5a - month list draft view 2021-03-16 113458_tn.jpg" width="100"></a>
+<a href="images/Cashup 6 - list date filter 2021-03-16 113558.png" data-caption="Cash Up 6 - list date filter"><img src="images/thumbnails/Cashup 6 - list date filter 2021-03-16 113558_tn.jpg" width="100"></a>
+<a href="images/Cashup 7 - list collapsed KPI view 2021-03-16 113234.png" data-caption="Cash Up 7 - list collapsed KPI view"><img src="images/thumbnails/Cashup 7 - list collapsed KPI view 2021-03-16 113234_tn.jpg" width="100"></a>
+<a href="images/Cashup 8 - indivudal cashup details view.png" data-caption="Cash Up 8 - individual Cash Up details view"><img src="images/thumbnails/Cashup 8 - indivudal cashup details view_tn.jpg" width="100"></a>
+
+<a href="images/cashup create 1- new screen 2021-03-16 113757.png" data-caption="Cash Up Create 1 - new screen"><img src="images/thumbnails/cashup create 1- new screen 2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 2 - bank deposit details update 2021-03-16 113757.png" data-caption="Cash Up Create 2 - bank deposit details update"><img src="images/thumbnails/cashup create 2 - bank deposit details update 2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 2a - create new Cash and POS entry 2021-03-16 113757.png" data-caption="Cash Up Create 2a - create new Cash and POS entry"><img src="images/thumbnails/cashup create 2a - create new Cash and POS entry 2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 3 - Upload file attachment 2021-03-16 113757.png" data-caption="Cash Up Create 3 - Upload file attachment"><img src="images/thumbnails/cashup create 3 - Upload file attachment 2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 4 - 3rd party data entry  2021-03-16 113757.png" data-caption="Cash Up Create 4 - 3rd party data entry "><img src="images/thumbnails/cashup create 4 - 3rd party data entry  2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 5 - KPI data entry  2021-03-16 113757.png" data-caption="Cash Up Create 5 - KPI data entry "><img src="images/thumbnails/cashup create 5 - KPI data entry  2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 6 - safe summary data entry  2021-03-16 113757.png" data-caption="Cash Up Create 6 - safe summary data entry "><img src="images/thumbnails/cashup create 6 - safe summary data entry  2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 7 - validation warning message  2021-03-16 113757.png" data-caption="Cash Up Create 7 - validation warning message "><img src="images/thumbnails/cashup create 7 - validation warning message  2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 8 - updateed list with new cashup data  2021-03-16 113757.png" data-caption="Cash Up Create 8 - updated list with new Cash Up data "><img src="images/thumbnails/cashup create 8 - updateed list with new cashup data  2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 9 - create bank deposit  2021-03-16 113757.png" data-caption="Cash Up Create 9 - create bank deposit "><img src="images/thumbnails/cashup create 9 - create bank deposit  2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 10 - bank deposit list BANKED 2021-03-16 113757.png" data-caption="Cash Up Create 10 - bank deposit list BANKED"><img src="images/thumbnails/cashup create 10 - bank deposit list BANKED 2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 11 - bank deposit details view  2021-03-16 113757.png" data-caption="Cash Up Create 11 - bank deposit details view "><img src="images/thumbnails/cashup create 11 - bank deposit details view  2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 12a - bank deposit details update reason annotation  2021-03-16 113757.png" data-caption="Cash Up Create 12a - bank deposit details update reason annotation "><img src="images/thumbnails/cashup create 12a - bank deposit details update reason annotation  2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 13 - custom reports list - top 5  2021-03-16 113757.png" data-caption="Cash Up Create 13 - custom reports list - top 5 "><img src="images/thumbnails/cashup create 13 - custom reports list - top 5  2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 14 - create  custom reports 2021-03-16 113757.png" data-caption="Cash Up Create 14 - create  custom reports"><img src="images/thumbnails/cashup create 14 - create  custom reports 2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 15 - preview created custom reports 2021-03-16 113757.png" data-caption="Cash Up Create 15 - preview created custom reports"><img src="images/thumbnails/cashup create 15 - preview created custom reports 2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 16 -example monthly cashup report 2021-03-16 113757.png" data-caption="Cash Up Create 16 -example monthly Cash Up report"><img src="images/thumbnails/cashup create 16 -example monthly cashup report 2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 17 - cashup and bank reconciliation - month summary view  2021-03-16 113757.png" data-caption="Cash Up Create 17 - Cash Up and bank reconciliation - month summary view "><img src="images/thumbnails/cashup create 17 - cashup and bank reconciliation - month summary view  2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 18 - cashup and bank reconciliation - month cashup filtered view  2021-03-16 113757.png" data-caption="Cash Up Create 18 - Cash Up and bank reconciliation - month Cash Up filtered view "><img src="images/thumbnails/cashup create 18 - cashup and bank reconciliation - month cashup filtered view  2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 19 - cashup and bank reconciliation -  cashup detailed reconcilation matching edit screen  2021-03-16 113757.png" data-caption="Cash Up Create 19 - Cash Up and bank reconciliation -  Cash Up detailed reconciliation matching edit screen "><img src="images/thumbnails/cashup create 19 - cashup and bank reconciliation -  cashup detailed reconcilation matching edit screen  2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 20 - cashup and bank reconciliation -  cashup summary - 3rd party reconcilation syummary filtern  2021-03-16 113757.png" data-caption="Cash Up Create 20 - Cash Up and bank reconciliation -  Cash Up summary - 3rd party reconciliation summary filter "><img src="images/thumbnails/cashup create 20 - cashup and bank reconciliation -  cashup summary - 3rd party reconcilation syummary filtern  2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 21 - 3rd party reconciliation -  3rd party reconcilation matching edit screen  2021-03-16 113757.png" data-caption="Cash Up Create 21 - 3rd party reconciliation -  3rd party reconciliation matching edit screen "><img src="images/thumbnails/cashup create 21 - 3rd party reconciliation -  3rd party reconcilation matching edit screen  2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 22 - 3rd party reconciliation -  tab 2 - another delivery provider - 3rd party reconcilation matching edit screen  2021-03-16 113757.png" data-caption="Cash Up Create 22 - 3rd party reconciliation -  tab 2 - another delivery provider - 3rd party reconciliation matching edit screen "><img src="images/thumbnails/cashup create 22 - 3rd party reconciliation -  tab 2 - another delivery provider - 3rd party reconcilation matching edit screen  2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 23 - cashup and bank reconciliation - month summary view filtered by credit card  2021-03-16 113757.png" data-caption="Cash Up Create 23 - Cash Up and bank reconciliation - month summary view filtered by credit card "><img src="images/thumbnails/cashup create 23 - cashup and bank reconciliation - month summary view filtered by credit card  2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 24 - cashup and bank reconciliation - credit card detail reconciliation match up  2021-03-16 113757.png" data-caption="Cash Up Create 24 - Cash Up and bank reconciliation - credit card detail reconciliation match up "><img src="images/thumbnails/cashup create 24 - cashup and bank reconciliation - credit card detail reconciliation match up  2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 24a - cashup and bank reconciliation - credit card reconciliation difference annotation  2021-03-16 113757.png" data-caption="Cash Up Create 24a - Cash Up and bank reconciliation - credit card reconciliation difference annotation "><img src="images/thumbnails/cashup create 24a - cashup and bank reconciliation - credit card reconciliation difference annotation  2021-03-16 113757_tn.jpg" width="100"></a>
+<a href="images/cashup create 25 - cashup and bank reconciliation - cash reconciliation difference edit and match up 2021-03-16 113757.png" data-caption="Cash Up Create 25 - Cash Up and bank reconciliation - cash reconciliation difference edit and match up"><img src="images/thumbnails/cashup create 25 - cashup and bank reconciliation - cash reconciliation difference edit and match up 2021-03-16 113757_tn.jpg" width="100"></a>
+
+<a href="images/Employee 0 - employee shift calendar - week view and edit 2021-03-16 120145.png" data-caption="Employee Shift Calendar - week view and edit"><img src="images/thumbnails/Employee 0 - employee shift calendar - week view and edit 2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0a - employee shift calendar - month view and edit 2021-03-16 120145.png" data-caption="Employee Shift Calendar - month view and edit"><img src="images/thumbnails/Employee 0a - employee shift calendar - month view and edit 2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0b - employee shift calendar - 2 week view and edit 2021-03-16 120145.png" data-caption="Employee Shift Calendar - 2 week view and edit"><img src="images/thumbnails/Employee 0b - employee shift calendar - 2 week view and edit 2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0c - employee shift calendar - week view and edit 2021-03-16 120145.png" data-caption="Employee Shift Calendar - week view and edit"><img src="images/thumbnails/Employee 0c - employee shift calendar - week view and edit 2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0d - employee shift calendar - duplicate current week to next week - copy all employee shift data to next week  2021-03-16 120145.png" data-caption="Employee Shift Calendar - duplicate current week to next week - copy all employee shift data to next week "><img src="images/thumbnails/Employee 0d - employee shift calendar - duplicate current week to next week - copy all employee shift data to next week  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0e - employee shift calendar - show currenrt users individual shift schedule and history  2021-03-16 120145.png" data-caption="Employee Shift Calendar - show current users individual shift schedule and history "><img src="images/thumbnails/Employee 0e - employee shift calendar - show currenrt users individual shift schedule and history  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0g - employee shift calendar - individual makes request to change shift times for approval  2021-03-16 120145.png" data-caption="Employee Shift Calendar - individual makes request to change shift times for approval "><img src="images/thumbnails/Employee 0g - employee shift calendar - individual makes request to change shift times for approval  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0h - employee shift calendar - delete a future shift entry from calendar  2021-03-16 120145.png" data-caption="Employee Shift Calendar - delete a future shift entry from calendar "><img src="images/thumbnails/Employee 0h - employee shift calendar - delete a future shift entry from calendar  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0j - employee shift calendar - view shift calendar by work group name - see under resource group for a day and allocate more people  2021-03-16 120145.png" data-caption="Employee Shift Calendar - view shift calendar by group - check group and allocate more people"><img src="images/thumbnails/Employee 0j - employee shift calendar - view shift calendar by work group name - see under resource group for a day and allocate more people  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0kj - employee shift calendar - see draft and publish shift rosters - notify employee of changes - and total hours budgeted for day  2021-03-16 120145.png" data-caption="Employee Shift Calendar - see draft and publish shift rosters - notify employee of changes"><img src="images/thumbnails/Employee 0kj - employee shift calendar - see draft and publish shift rosters - notify employee of changes - and total hours budgeted for day  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0l - employee shift calendar - restaruant manger can see annotated calendar with costs per day and hours worked  2021-03-16 120145.png" data-caption="Employee Shift Calendar - restaurant manger can see annotated calendar with costs per day and hours worked "><img src="images/thumbnails/Employee 0l - employee shift calendar - restaruant manger can see annotated calendar with costs per day and hours worked  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0m - employee shift calendar - restaruant manger publishes next weeks schedule and system send employee notifications with update  2021-03-16 120145.png" data-caption="Employee Shift Calendar - restaurant manger publishes next weeks schedule and system send employee notifications with update "><img src="images/thumbnails/Employee 0m - employee shift calendar - restaruant manger publishes next weeks schedule and system send employee notifications with update  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0n - employee shift calendar - summary calendar of holoday and sick days for individual employee  2021-03-16 120145.png" data-caption="Employee Shift Calendar - summary calendar of holiday and sick days for individual employee "><img src="images/thumbnails/Employee 0n - employee shift calendar - summary calendar of holoday and sick days for individual employee  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0p - employee shift calendar - individual request for a vacation day  2021-03-16 120145.png" data-caption="Employee Shift Calendar - individual request for a vacation day "><img src="images/thumbnails/Employee 0p - employee shift calendar - individual request for a vacation day  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0q - employee shift calendar - individual cancel request for a vacation day  2021-03-16 120145.png" data-caption="Employee Shift Calendar - individual cancel request for a vacation day "><img src="images/thumbnails/Employee 0q - employee shift calendar - individual cancel request for a vacation day  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0r - employee shift calendar - manager can see calendar of vaction days  2021-03-16 120145.png" data-caption="Employee Shift Calendar - manager can see calendar of vacation days "><img src="images/thumbnails/Employee 0r - employee shift calendar - manager can see calendar of vaction days  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0s - employee shift calendar - manager can see a single days vacation details  2021-03-16 120145.png" data-caption="Employee Shift Calendar - manager can see a single days vacation details "><img src="images/thumbnails/Employee 0s - employee shift calendar - manager can see a single days vacation details  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0t - employee shift calendar - manager can see attendance history per day-week-2weeks-month  2021-03-16 120145.png" data-caption="Employee Shift Calendar - manager can see attendance history per day-week-2weeks-month "><img src="images/thumbnails/Employee 0t - employee shift calendar - manager can see attendance history per day-week-2weeks-month  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0u - employee shift calendar - manager can drilldown into specific individuals attendance history  2021-03-16 120145.png" data-caption="Employee Shift Calendar - manager can drill down into specific individuals attendance history "><img src="images/thumbnails/Employee 0u - employee shift calendar - manager can drilldown into specific individuals attendance history  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0v - employee shift calendar - manager can accept-reject-view shift change requests from employees  2021-03-16 120145.png" data-caption="Employee Shift Calendar - manager can accept-reject-view shift change requests from employees "><img src="images/thumbnails/Employee 0v - employee shift calendar - manager can accept-reject-view shift change requests from employees  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0w - employee shift calendar - manager can change individual request and send SMS or app message notification of updates  2021-03-16 120145.png" data-caption="Employee Shift Calendar - manager can accept-reject-view shift change individual request and send SMS or app message notification of updates "><img src="images/thumbnails/Employee 0w - employee shift calendar - manager can accept-reject-view shift change individual request and send SMS or app message notification of updates  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0x - employee shift calendar - manager can change individual request - completed screen - approved success  2021-03-16 120145.png" data-caption="Employee Shift Calendar - manager can accept-reject-view shift changerequest - approved success "><img src="images/thumbnails/Employee 0x - employee shift calendar - manager can accept-reject-view shift change individual request - completed screen - approved success  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0y - employee shift calendar - manager can accept-reject-view individual vacation request - completed screen - approved success  2021-03-16 120145.png" data-caption="Employee Shift Calendar - manager can accept-reject-view vacation request - approved success "><img src="images/thumbnails/Employee 0y - employee shift calendar - manager can accept-reject-view individual vacation request - completed screen - approved success  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0ya - employee shift calendar - manager can accept-reject-view individual vacation request - completed screen - rejected screen  2021-03-16 120145.png" data-caption="Employee Shift Calendar - manager can accept-reject-view vacation request - rejected screen "><img src="images/thumbnails/Employee 0ya - employee shift calendar - manager can accept-reject-view individual vacation request - completed screen - rejected screen  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 0z - employee shift calendar - manager can reject with message for vacation request approved success  2021-03-16 120145.png" data-caption="Employee Shift Calendar - manager can reject with annotation message for vacation request"><img src="images/thumbnails/Employee 0z - employee shift calendar - manager can reject with annotation message for individual vacation request - completed screen - approved success  2021-03-16 120145_tn.jpg" width="100"></a>
+
+<a href="images/Employee 1 - search screen 2021-03-16 120145.png" data-caption="Employee 1 - search screen"><img src="images/thumbnails/Employee 1 - search screen 2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 2 - create new employee screen 2021-03-16 120145.png" data-caption="Employee 2 - create new employee screen"><img src="images/thumbnails/Employee 2 - create new employee screen 2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 3 - create new completed  2021-03-16 120145.png" data-caption="Employee 3 - create new completed "><img src="images/thumbnails/Employee 3 - create new completed  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 4 - create employee work shift history  2021-03-16 120145.png" data-caption="Employee 4 - create employee work shift history "><img src="images/thumbnails/Employee 4 - create employee work shift history  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 5 - create new create employye banmk details  2021-03-16 120145.png" data-caption="Employee 5 - create new create employee bank details "><img src="images/thumbnails/Employee 5 - create new create employye banmk details  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 6 - create employee document upload - passport or id validation  2021-03-16 120145.png" data-caption="Employee 6 - create employee document upload - passport or id validation "><img src="images/thumbnails/Employee 6 - create employee document upload - passport or id validation  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 6a - create employee staturay and tax informartion entry  2021-03-16 120145.png" data-caption="Employee 6a - create employee statutory and tax information entry "><img src="images/thumbnails/Employee 6a - create employee staturay and tax informartion entry  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 6b - create employee statements and extra infomration  2021-03-16 120145.png" data-caption="Employee 6b - create employee statements and extra information "><img src="images/thumbnails/Employee 6b - create employee statements and extra infomration  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 7 - employee search screen  2021-03-16 120145.png" data-caption="Employee 7 - employee search screen "><img src="images/thumbnails/Employee 7 - employee search screen  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 8 - employee work schedule and shifts calendar  2021-03-16 120145.png" data-caption="Employee 8 - employee work schedule and shifts calendar "><img src="images/thumbnails/Employee 8 - employee work schedule and shifts calendar  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 9 - employee work add shift entry  2021-03-16 120145.png" data-caption="Employee 9 - employee work add shift entry "><img src="images/thumbnails/Employee 9 - employee work add shift entry  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 10 - employee work edit shift entry  2021-03-16 120145.png" data-caption="Employee 10 - employee work edit shift entry "><img src="images/thumbnails/Employee 10 - employee work edit shift entry  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 11 - employee vacation add holiday entry  2021-03-16 120145.png" data-caption="Employee 11 - employee vacation add holiday entry "><img src="images/thumbnails/Employee 11 - employee vacation add holiday entry  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 12 - manager profile screen  2021-03-16 120145.png" data-caption="Employee 12 - manager profile screen "><img src="images/thumbnails/Employee 12 - manager profile screen  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 13 - manager sees payroll report lists and can create new custom reports  2021-03-16 120145.png" data-caption="Employee 13 - manager sees payroll report lists and can create new custom reports "><img src="images/thumbnails/Employee 13 - manager sees payroll report lists and can create new custom reports  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 14 - manager  create new custom payroll reports  2021-03-16 120145.png" data-caption="Employee 14 - manager  create new custom payroll reports "><img src="images/thumbnails/Employee 14 - manager  create new custom payroll reports  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 15 - manager  preview new  payroll report  2021-03-16 120145.png" data-caption="Employee 15 - manager  preview new  payroll report "><img src="images/thumbnails/Employee 15 - manager  preview new  payroll report  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 16 - manager chooses payroll columns for report  2021-03-16 120145.png" data-caption="Employee 16 - manager chooses payroll columns for report "><img src="images/thumbnails/Employee 16 - manager chooses payroll columns for report  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 17 - manager chooses payroll bank details columns for report  2021-03-16 120145.png" data-caption="Employee 17 - manager chooses payroll bank details columns for report "><img src="images/thumbnails/Employee 17 - manager chooses payroll bank details columns for report  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 18 - manager chooses payroll shift details columns for report  2021-03-16 120145.png" data-caption="Employee 18 - manager chooses payroll shift details columns for report "><img src="images/thumbnails/Employee 18 - manager chooses payroll shift details columns for report  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 19 - manager can preview summary information about payroll  report  2021-03-16 120145.png" data-caption="Employee 19 - manager can preview summary information about payroll  report "><img src="images/thumbnails/Employee 19 - manager can preview summary information about payroll  report  2021-03-16 120145_tn.jpg" width="100"></a>
+<a href="images/Employee 20 - manager can export CSV payroll  report and give it a filename 2021-03-16 120145.png" data-caption="Employee 20 - manager can export CSV payroll  report and give it a filename"><img src="images/thumbnails/Employee 20 - manager can export CSV payroll  report and give it a filename 2021-03-16 120145_tn.jpg" width="100"></a>
+
+<a href="images/Purchase Order 1 - list current POs and create new POS 2021-03-16 125529.png" data-caption="Purchase Order 1 - list current POs and create new POS"><img src="images/thumbnails/Purchase Order 1 - list current POs and create new POS 2021-03-16 125529_tn.jpg" width="100"></a>
+<a href="images/Purchase Order 2 - Create new PO for a supplier  2021-03-16 125529.png" data-caption="Purchase Order 2 - Create new PO for a supplier "><img src="images/thumbnails/Purchase Order 2 - Create new PO for a supplier  2021-03-16 125529_tn.jpg" width="100"></a>
+<a href="images/Purchase Order 3 - Create new PO for a non-standard supplier  2021-03-16 125529.png" data-caption="Purchase Order 3 - Create new PO for a non-standard supplier "><img src="images/thumbnails/Purchase Order 3 - Create new PO for a non-standard supplier  2021-03-16 125529_tn.jpg" width="100"></a>
+<a href="images/Purchase Order 4 - view individual PO details and submit to supplier  2021-03-16 125529.png" data-caption="Purchase Order 4 - view individual PO details and submit to supplier "><img src="images/thumbnails/Purchase Order 4 - view individual PO details and submit to supplier  2021-03-16 125529_tn.jpg" width="100"></a>
+<a href="images/Purchase Order 5 - view rejected PO response from  supplier  2021-03-16 125529.png" data-caption="Purchase Order 5 - view rejected PO response from  supplier "><img src="images/thumbnails/Purchase Order 5 - view rejected PO response from  supplier  2021-03-16 125529_tn.jpg" width="100"></a>
+<a href="images/Purchase Order 5a - edit and create new PO after a a supplier rejected your  initial PO rrequest  2021-03-16 125529.png" data-caption="Purchase Order 5a - edit and create new PO after a a supplier rejected your  initial PO request "><img src="images/thumbnails/Purchase Order 5a - edit and create new PO after a a supplier rejected your  initial PO rrequest  2021-03-16 125529_tn.jpg" width="100"></a>
+<a href="images/Purchase Order 5b - save modified price of your product master because  a supplier rejected your initial PO rrequest  2021-03-16 125529.png" data-caption="Purchase Order 5b - save modified price of your product master because  a supplier rejected your initial PO request "><img src="images/thumbnails/Purchase Order 5b - save modified price of your product master because  a supplier rejected your initial PO rrequest  2021-03-16 125529_tn.jpg" width="100"></a>
+<a href="images/Purchase Order 6 - view accepted PO response from  supplier  2021-03-16 125529.png" data-caption="Purchase Order 6 - view accepted PO response from  supplier "><img src="images/thumbnails/Purchase Order 6 - view accepted PO response from  supplier  2021-03-16 125529_tn.jpg" width="100"></a>
+<a href="images/Purchase Order 7 - view accepted PO response from  supplier and and accepted by restaurant  2021-03-16 125529.png" data-caption="Purchase Order 7 - view accepted PO response from  supplier and and accepted by restaurant "><img src="images/thumbnails/Purchase Order 7 - view accepted PO response from  supplier and and accepted by restaurant  2021-03-16 125529_tn.jpg" width="100"></a>
+<a href="images/Purchase Order 8 - amend PO after supplier or restaurant reject the PO agreement - override pricing or escalate supplier dispute  2021-03-16 125529.png" data-caption="Purchase Order 8 - amend PO after supplier or restaurant reject the PO agreement - override pricing or escalate supplier dispute "><img src="images/thumbnails/Purchase Order 8 - amend PO after supplier or restaurant reject the PO agreement - override pricing or escalate supplier dispute  2021-03-16 125529_tn.jpg" width="100"></a>
+<a href="images/Purchase Order 9 - view amended PO after supplier price or quantity change in delivery - see difference highlight  2021-03-16 125529.png" data-caption="Purchase Order 9 - view amended PO after supplier price or quantity change in delivery - see difference highlight "><img src="images/thumbnails/Purchase Order 9 - view amended PO after supplier price or quantity change in delivery - see difference highlight  2021-03-16 125529_tn.jpg" width="100"></a>
+<a href="images/Purchase Order 10 - view finalised PO after delivery and ready for export to accountant systems - see difference highlight  2021-03-16 125529.png" data-caption="Purchase Order 10 - view finalised PO after delivery and ready for export to accountant systems - see difference highlight "><img src="images/thumbnails/Purchase Order 10 - view finalised PO after delivery and ready for export to accountant systems - see difference highlight  2021-03-16 125529_tn.jpg" width="100"></a>
+<a href="images/Purchase Order 11 - view finalised PO after delivery - see difference highlight  2021-03-16 125529.png" data-caption="Purchase Order 11 - view finalised PO after delivery - with no amendment or dispute - and ready for export to accountant systems - see difference highlight "><img src="images/thumbnails/Purchase Order 11 - view finalised PO after delivery - with no amendment or dispute - and ready for export to accountant systems - see difference highlight  2021-03-16 125529_tn.jpg" width="100"></a>
+<a href="images/Purchase Order 11 - view finalised PO upload or view file attachments for PO paperwork 2021-03-16 125529.png"></a><img src="images/thumbnails/Purchase Order 11 - view finalised PO upload or view file attachments for PO paperwork - disputes - amendments - credit notes - invoice papers.jpg" alt="Purchase Order 11 - view finalised PO upload or view file attachments for PO paperwork - disputes - amendments - credit notes - invoice papers.  Accountant will have access to these documents for archiving ">
+
+<a href="images/Supplier and Purchases 1 - supplier searchscreen 2021-03-16 124925.png" data-caption="Supplier and Purchases 1 - supplier search"><img src="images/thumbnails/Supplier and Purchases 1 - supplier searchscreen 2021-03-16 124925_tn.jpg" width="100"></a>
+<a href="images/Supplier and Purchases 2 -create new  supplier 2021-03-16 124925.png" data-caption="Supplier and Purchases 2 -create new  supplier"><img src="images/thumbnails/Supplier and Purchases 2 -create new  supplier 2021-03-16 124925_tn.jpg" width="100"></a>
+<a href="images/Supplier and Purchases 3 -create new  supplier -completed 2021-03-16 124925.png" data-caption="Supplier and Purchases 3 -create new  supplier -completed"><img src="images/thumbnails/Supplier and Purchases 3 -create new  supplier -completed 2021-03-16 124925_tn.jpg" width="100"></a>
+<a href="images/Supplier and Purchases 4 - create new  supplier -add product master popup message on create 2021-03-16 124925.png" data-caption="Supplier and Purchases 4 - create new  supplier -add product master popup message on create"><img src="images/thumbnails/Supplier and Purchases 4 - create new  supplier -add product master popup message on create 2021-03-16 124925_tn.jpg" width="100"></a>
+<a href="images/Supplier and Purchases 5 - create new  supplier - add product master - updated list - also import supplier CSV product list button 2021-03-16 124925.png" data-caption="Supplier and Purchases 5 - create new  supplier - add product master - updated list - also import supplier CSV product list button"><img src="images/thumbnails/Supplier and Purchases 5 - create new  supplier - add product master - updated list - also import supplier CSV product list button 2021-03-16 124925_tn.jpg" width="100"></a>
+<a href="images/Supplier and Purchases 5 - create new  supplier - add product master edit screen 2021-03-16 124925.png" data-caption="Supplier and Purchases 6 - create new  supplier - add product master edit screen"><img src="images/thumbnails/Supplier and Purchases 5 - create new  supplier - add product master edit screen 2021-03-16 124925_tn.jpg" width="100"></a>
+<a href="images/Supplier and Purchases 7 -view product masters from individual supplier 2021-03-16 124925.png" data-caption="Supplier and Purchases 7 -view product masters from individual supplier"><img src="images/thumbnails/Supplier and Purchases 7 -view product masters from individual supplier 2021-03-16 124925_tn.jpg" width="100"></a>
+<a href="images/Invoice 1 - list and search screen  2021-03-16 125529.png" data-caption="Invoice 1 - list and search screen "><img src="images/thumbnails/Invoice 1 - list and search screen  2021-03-16 125529_tn.jpg" width="100"></a>
+
+</div>
+</body>
+</html>

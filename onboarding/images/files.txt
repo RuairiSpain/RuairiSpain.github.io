@@ -1,0 +1,57 @@
+
+cashup create 1- new screen 2021-03-16 113757.png
+cashup create 10 - bank deposit list BANKED 2021-03-16 113757.png
+cashup create 11 - bank deposit details view  2021-03-16 113757.png
+cashup create 12a - bank deposit details update reason annotation  2021-03-16 113757.png
+cashup create 13 - custom reports list - top 5  2021-03-16 113757.png
+cashup create 14 - create  custom reports 2021-03-16 113757.png
+cashup create 15 - preview created custom reports 2021-03-16 113757.png
+cashup create 16 -example monthly cashup report 2021-03-16 113757.png
+cashup create 17 - cashup and bank reconciliation - month summary view  2021-03-16 113757.png
+cashup create 18 - cashup and bank reconciliation - month cashup filtered view  2021-03-16 113757.png
+cashup create 19 - cashup and bank reconciliation -  cashup detailed reconcilation matching edit screen  2021-03-16 113757.png
+cashup create 2 - bank deposit details update 2021-03-16 113757.png
+cashup create 20 - cashup and bank reconciliation -  cashup summary - 3rd party reconcilation syummary filtern  2021-03-16 113757.png
+cashup create 21 - 3rd party reconciliation -  3rd party reconcilation matching edit screen  2021-03-16 113757.png
+cashup create 22 - 3rd party reconciliation -  tab 2 - another delivery provider - 3rd party reconcilation matching edit screen  2021-03-16 113757.png
+cashup create 23 - cashup and bank reconciliation - month summary view filtered by credit card  2021-03-16 113757.png
+cashup create 24 - cashup and bank reconciliation - credit card detail reconciliation match up  2021-03-16 113757.png
+cashup create 24a - cashup and bank reconciliation - credit card reconciliation difference annotation  2021-03-16 113757.png
+cashup create 25 - cashup and bank reconciliation - cash reconciliation difference edit and match up 2021-03-16 113757.png
+cashup create 2a - create new Cash and POS entry 2021-03-16 113757.png
+cashup create 3 - Upload file attachment 2021-03-16 113757.png
+cashup create 4 - 3rd party data entry  2021-03-16 113757.png
+cashup create 5 - KPI data entry  2021-03-16 113757.png
+cashup create 6 - safe summary data entry  2021-03-16 113757.png
+cashup create 7 - validation warning message  2021-03-16 113757.png
+cashup create 8 - updateed list with new cashup data  2021-03-16 113757.png
+cashup create 9 - create bank deposit  2021-03-16 113757.png
+Employee 0 - employee shift calendar - week view and edit 2021-03-16 120145.png
+Employee 0a - employee shift calendar - month view and edit 2021-03-16 120145.png
+Employee 0b - employee shift calendar - 2 week view and edit 2021-03-16 120145.png
+Employee 0c - employee shift calendar - week view and edit 2021-03-16 120145.png
+Employee 0d - employee shift calendar - duplicate current week to next week - copy all employee shift data to next week  2021-03-16 120145.png
+Employee 0e - employee shift calendar - show currenrt users individual shift schedule and history  2021-03-16 120145.png
+Employee 0g - employee shift calendar - individual makes request to change shift times for approval  2021-03-16 120145.png
+Employee 0h - employee shift calendar - delete a future shift entry from calendar  2021-03-16 120145.png
+Employee 0j - employee shift calendar - view shift calendar by work group name - see under resource group for a day and allocate more people  2021-03-16 120145.png
+Employee 0kj - employee shift calendar - see draft and publish shift rosters - notify employee of changes - and total hours budgeted for day  2021-03-16 120145.png
+Employee 0l - employee shift calendar - restaruant manger can see annotated calendar with costs per day and hours worked  2021-03-16 120145.png
+Employee 0m - employee shift calendar - restaruant manger publishes next weeks schedule and system send employee notifications with update  2021-03-16 120145.png
+Employee 0n - employee shift calendar - summary calendar of holoday and sick days for individual employee  2021-03-16 120145.png
+Employee 0p - employee shift calendar - individual request for a vacation day  2021-03-16 120145.png
+Employee 0q - employee shift calendar - individual cancel request for a vacation day  2021-03-16 120145.png
+Employee 0r - employee shift calendar - manager can see calendar of vaction days  2021-03-16 120145.png
+Employee 0s - employee shift calendar - manager can see a single days vacation details  2021-03-16 120145.png
+Employee 0t - employee shift calendar - manager can see attendance history per day-week-2weeks-month  2021-03-16 120145.png
+Employee 0u - employee shift calendar - manager can drilldown into specific individuals attendance history  2021-03-16 120145.png
+Employee 0v - employee shift calendar - manager can accept-reject-view shift change requests from employees  2021-03-16 120145.png
+Employee 0w - employee shift calendar - manager can accept-reject-view shift change individual request and send SMS or app message notification of updates  2021-03-16 120145.png
+Employee 0x - employee shift calendar - manager can accept-reject-view shift change individual request - completed screen - approved success  2021-03-16 120145.png
+Employee 0y - employee shift calendar - manager can accept-reject-view individual vacation request - completed screen - approved success  2021-03-16 120145.png
+Employee 0ya - employee shift calendar - manager can accept-reject-view individual vacation request - completed screen - rejected screen  2021-03-16 120145.png
+Employee 0z - employee shift calendar - manager can reject with annotation message for individual vacation request - completed screen - approved success  2021-03-16 120145.png
+
+
+
+
